@@ -1,1 +1,1 @@
-ddfdfd  f
+shell, basics
