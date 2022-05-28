@@ -3,7 +3,6 @@
 
 | Scripts | |
 | --- | --- |
-
 | [0-iam_betty](https://github.com/FatjonMileti/shell/blob/main/permissions/0-iam_betty)  | switches the current user to the user betty|
 |[1-who_am_i](https://github.com/FatjonMileti/shell/blob/main/permissions/1-who_am_i)|  prints the effective username of the current user|
 | [2-groups](https://github.com/FatjonMileti/shell/blob/main/permissions/2-groups)  |prints all the groups the current user is part of|
