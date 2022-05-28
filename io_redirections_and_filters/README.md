@@ -1,4 +1,6 @@
 # Shell, io_redirections_and_filters
+#### Scripts for Shell, io_redirections_and_filters
+
  
 - [0-hello_world](https://github.com/FatjonMileti/shell/blob/main/io_redirections_and_filters/0-hello_world) ---->  prints “Hello, World”
 - [1-confused_smiley](https://github.com/FatjonMileti/shell/blob/main/io_redirections_and_filters/1-confused_smiley) ---->   displays a confused smiley "(Ôo)'
