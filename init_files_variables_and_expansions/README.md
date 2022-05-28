@@ -1,3 +1,6 @@
+# Shell, init files, variables and expansions
+#### Scripts for Shell, init files, variables and expansions
+
 | Scripts | |
 | --- | --- |
 | [0-alias](https://github.com/FatjonMileti/shell/blob/main/init_files_variables_and_expansions/0-alias) | Creates an alias with Name: ls and Value: rm \* |
