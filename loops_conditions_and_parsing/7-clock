@@ -3,12 +3,12 @@
 Hours=0
 while (( $Hours < 12 ))
 do
-echo "Hour: $Hours"
-min=0
-while (( $min < 60 ))
+	echo "Hour: $Hours"
+	min=0
+	while (( $min < 60 ))
 do
 	echo "$min"
-	(( min++))
+	(( min++ ))
 done
-((Hours++))
+(( Hours++ )) 
 done
