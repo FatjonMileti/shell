@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays its own PID
+
+kill 4-to_infinity_and_beyond
