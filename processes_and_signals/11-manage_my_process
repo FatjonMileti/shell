@@ -3,24 +3,22 @@
 
 if [ "$1" == "start" ]
 then
-    ./manage_my_process &
-    echo $! >> /var/run/my_process.pid
-    echo "manage_my_process started" #Also job number, PID stored in .pid file
+    echo "manage_my_process started"
+        ./manage_my_process &
+    echo "$!" > /var/run/my_process.pid
 
 elif [ "$1" == "stop" ]
 then
-    pkill -f ./manage_my_process
-    rm '/var/run/my_process.pid'
-    echo "manage_my_process stopped" #And .pid file deleted 
+    echo "manage_my_process stopped"
+    #kill "$(cat "/var/run/my_process.pid")"
+    sudo pkill -f "./manage_my_process"
+    rm /var/run/my_process.pid 
 
 elif [ "$1" == "restart" ]
 then
-    sudo pkill -f '/var/run/my_process.pid'
-    rm '/var/run/my_process.pid'
-    ./manage_my_process &
-    echo $! >> /var/run/my_process.pid
-    echo "manage_my_process restarted"
-
+echo "manage_my_process restarted"
+	killLoop_n_rmFile
+	startLoop_n_createFile
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
