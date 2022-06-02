@@ -1,30 +1,29 @@
 #!/usr/bin/env bash
 # Displays its own PID
 
-x="/var/run/my_process.pid"
+tmpfile="/var/run/my_process.pid"
 
 if [ "$1" == "start" ]
 then
    echo "manage_my_process started"
     ./manage_my_process &
-    echo "$!" > "$x"
+    echo "$!" > "$tmpfile"
 
 elif [ "$1" == "stop" ]
 then
 echo "manage_my_process stopped" 
-    #kill "$(cat "$x")"
+    #kill "$(cat "$tmpfile")"
     sudo pkill -f "./manage_my_process"
-    rm "$x"    
+    rm "$tmpfile"   
 
 elif [ "$1" == "restart" ]
 then
 echo "manage_my_process restarted"
-./manage_my_process &
-    #kill "$(cat "$x")"
+    #kill "$(cat "$tmpfile")"
     sudo pkill -f "./manage_my_process"
-    rm "$x" 
+    rm "$tmpfile" 
     ./manage_my_process &
-    echo "$!" > "$x"
+    echo "$!" > "$tmpfile"
 
 else
     echo "Usage: manage_my_process {start|stop|restart}"
