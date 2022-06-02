@@ -10,15 +10,14 @@ then
 elif [ "$1" == "stop" ]
 then
     echo "manage_my_process stopped"
-    #kill "$(cat "/var/run/my_process.pid")"
+    pkill /var/run/my_process.pid
     sudo pkill -f "./manage_my_process"
     rm /var/run/my_process.pid 
 
 elif [ "$1" == "restart" ]
 then
 echo "manage_my_process restarted"
-	killLoop_n_rmFile
-	startLoop_n_createFile
+
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
