@@ -5,17 +5,17 @@ if [ "$1" = "start" ]
 then
     ./manage_my_process &
     echo $! >> /var/run/my_process.pid
-    echo "manage_my_process started" 
+    echo "manage_my_process started"
 
 elif [ "$1" = "stop" ]
 then
-    pkill -f /var/run/my_process.pid
-    rm -rf /var/run/my_process.pid
-    echo "manage_my_process stoped" 
+	pkill -f /var/run/my_process.pid
+	rm -rf /var/run/my_process.pid
+	echo "manage_my_process stoped" 
 
 elif [ "$1" = "restart" ]
 then
-    pkill -f /var/run/my_process.pid
+	pkill -f /var/run/my_process.pid
     rm -rf /var/run/my_process.pid
     ./manage_my_process &
     echo $! >> /var/run/my_process.pid
