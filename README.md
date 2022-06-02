@@ -8,3 +8,8 @@ The shell is **a command line interpreter.** It can also execute other programs 
 - [Shell, permissions](https://github.com/FatjonMileti/shell/tree/main/permissions) 
 - [Shell, io_redirections_and_filters](https://github.com/FatjonMileti/shell/tree/main/io_redirections_and_filters)
 - [init_files_variables_and_expansions](https://github.com/FatjonMileti/shell/tree/main/init_files_variables_and_expansions)
+- [Shell, loops, conditions and parsing](https://github.com/FatjonMileti/shell/tree/main/loops_conditions_and_parsing)
+- [Shell, processes and signals](https://github.com/FatjonMileti/shell/tree/main/processes_and_signals)
+
+
+
