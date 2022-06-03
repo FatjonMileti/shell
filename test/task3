@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+biggest=100   # maximum number possible
+guess=0                   
+guesses=0                
+number=$(($$ % $biggest))    # random number, between 1 and $biggest
+
+while (( number!=$guess ))
+do 
+	echo "Choose a number from 1-100:"
+	read guess
+
+	if (( guess<number ))
+	then 
+		echo "Our secret number is bigger"
+	else  (( guess>number ))
+
+		echo "Our secret number is smaller"
+	fi
+	((guesses++))
+done
+echo "Correct! You guessed $number in $guesses guesses"
+
+	
+	
+       
