@@ -4,10 +4,10 @@ The shell is **a command line interpreter.** It can also execute other programs 
 ### Repository for shell projects.
 
 
-- [Shell, basics](https://github.com/FatjonMileti/shell/tree/main/basics) 
-- [Shell, permissions](https://github.com/FatjonMileti/shell/tree/main/permissions) 
-- [Shell, io_redirections_and_filters](https://github.com/FatjonMileti/shell/tree/main/io_redirections_and_filters)
-- [init_files_variables_and_expansions](https://github.com/FatjonMileti/shell/tree/main/init_files_variables_and_expansions)
+- [Shell, basics](http://rekings.epizy.com/projects/shell/project%205%20shell%20basics/Project%20Shell,%20basics%20Holberton%20Albania%20Intranet.htm) 
+- [Shell, permissions](http://rekings.epizy.com/projects/shell/project%206%20shell%20permissions/Project%20Shell,%20permissions%20Holberton%20Albania%20Intranet.htm) 
+- [Shell, io_redirections_and_filters](http://rekings.epizy.com/projects/shell/project%207%20Shell,%20IO%20Redirection/Project%20Shell,%20I_O%20Redirections%20and%20filters%20Holberton%20Albania%20Intranet.htm)
+- [init_files_variables_and_expansions](http://rekings.epizy.com/projects/shell/project%208%20Shell,%20init%20files,%20variables%20and%20expansions/Project%20Shell,%20init%20files,%20variables%20and%20expansions%20Holberton%20Albania%20Intranet.htm)
 - [Shell, loops, conditions and parsing](https://github.com/FatjonMileti/shell/tree/main/loops_conditions_and_parsing)
 - [Shell, processes and signals](https://github.com/FatjonMileti/shell/tree/main/processes_and_signals)
 
